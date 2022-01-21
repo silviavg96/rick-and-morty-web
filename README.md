@@ -61,7 +61,6 @@ In this project, we don't have login, so we only need the kind authGuard
     meta: { show: false, layout: 'app' },
     component: () => import(/* webpackChunkName: "characters-page" */ 
     '@/pages/characters'),
-}
 ```
 
 In the meta, we declared if we want to be visible or not in the first entry and the kind of layout that we want to show.
