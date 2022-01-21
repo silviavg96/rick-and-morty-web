@@ -1,6 +1,6 @@
 <template>
     <div class="w-full h-full">
-        <div class="w-full h-64 bg-header-image" />
+        <div class="w-full h-64 bg-header-image bg-cover" />
 
         <TitleSection>
             <template #title>
