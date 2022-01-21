@@ -67,7 +67,7 @@
                 >
                     <span class="text-sm text-gray-500">Home</span>
                 </router-link>
-                <a href="resources/about_project.pdf" target="_blank" class="text-gray-500">About Project</a>
+                <a href="resources/Documentation_Rick&Morty_Web.pdf" target="_blank" class="text-gray-500">About Project</a>
                 <a href="resources/CV_SilviaVenegas_En.pdf" target="_blank" class="text-gray-500">About Me</a>
             </div>
             <p class="text-gray-500 text-center">
