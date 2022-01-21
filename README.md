@@ -54,14 +54,15 @@ In this project, we don't have login, so we only need the kind authGuard
 
 ###  Object keys
 
-json
+```json
 {
     path: '/',
     name: 'characters',
     meta: { show: false, layout: 'app' },
     component: () => import(/* webpackChunkName: "characters-page" */ 
     '@/pages/characters'),
-
+}
+```
 
 In the meta, we declared if we want to be visible or not in the first entry and the kind of layout that we want to show.
 Also, we can have redirects declared, for instance, in the home, and in the components having them declared the chunkName in the route to avoid errors.
